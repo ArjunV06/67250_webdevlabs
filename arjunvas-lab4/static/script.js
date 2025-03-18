@@ -69,3 +69,17 @@ if(window.location.href.includes("index.html"))
 {
     greetingFunc();
 }
+
+function addYear()
+{
+    var d = new Date();
+    var y = d.getFullYear();
+    document.getElementById("copyYear").innerHTML = y + " designed & and coded by Arjun Vasudevan";
+}
+
+
+
+function showList() {
+    document.getElementById('funList').style.display = 'block';
+    document.getElementById('showList').style.display = 'none';
+}
