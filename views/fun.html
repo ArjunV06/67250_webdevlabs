@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script defer src="../static/script.js"> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Your name">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Your name professional website">
+    <title>Your name</title>
+
+</head>
+<body style="font-family: Arial" onload="addYear()">
+    <header style = "color:blue; background: lightblue">
+
+        <h1 id="webname">
+            Arjun Vasudevan
+        </h1>
+        <nav class = "intro">
+            <a href="../index.html">Home</a> | 
+            <a href="cv.html">CV</a> | 
+            <a href="contact.html">Contact me</a> | 
+            <a href="fun.html">For fun</a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>What I like to do for fun:</h2>
+        <button id ="showList" onclick="showList()">Click to see...</button>
+        <ul id="funList">
+            <li>Urban Exploration!</li>
+            <li>Travel!</li>
+            <li>Race!</li>
+            <li>Build Cars!</li>
+        </ul>
+    </div>
+    <footer>
+        <p id = "copyYear"> &copy; placeholder </p>
+    </footer>
+</body>
+</html>
