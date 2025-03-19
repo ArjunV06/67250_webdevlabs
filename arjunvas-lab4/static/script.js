@@ -83,3 +83,18 @@ function showList() {
     document.getElementById('funList').style.display = 'block';
     document.getElementById('showList').style.display = 'none';
 }
+
+$(document).ready(function() {
+    $('.long-bio').hide();
+    
+    $('.read-more-btn').click(function() {
+        $('.short-bio').hide();
+        $('.long-bio').show();
+    });
+
+    
+    $('.read-less-btn').click(function() {
+        $('.long-bio').hide();
+        $('.short-bio').show();
+    });
+});

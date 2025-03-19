@@ -71,3 +71,17 @@
 h1{
     color: var(--blackish);
 }
+
+
+
+.read-more-btn, .read-less-btn {
+    color: #269331;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.long-bio {
+    display: none;
+}
+
+
