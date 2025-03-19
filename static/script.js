@@ -98,3 +98,18 @@ $(document).ready(function() {
         $('.short-bio').show();
     });
 });
+
+function validate()
+{
+    error.innerHTML = "";
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var comment = document.getElementById("comment");
+    var error = document.getElementById("error");
+    if(!name.checkValidity() || !email.checkValidity() || !comment.checkValidity())
+    {
+        error.innerHTML = "Please enter valid information";
+        
+    }
+
+}
