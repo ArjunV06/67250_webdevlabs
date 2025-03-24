@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <script defer src="../static/script.js"> </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,42 +29,35 @@
             <a href="fun.html">For fun</a>
         </nav>
     </header>
-<div class="mainLayout">
-    <div class="item1">
-        <h2>Find Me</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.4523637763995!2d-79.9455657!3d40.4454118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1616019784554!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-    <div class="item2">
-        <h2>Contact Me</h2>
-        <form class="contact">
-            <div>
-                <label for="name">name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div>
-                <label for="email">email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="comment">comment:</label>
-                <input id="comment" name="comment" required></input>
-            </div>
-            <div id="error" class="error-message"></div>
-            <button type="submit" onclick="validate(); return false;">EMAIL ME!!!</button>
-        </form>
-        
-        <table border="1">
+    <div class="main">
+        <h2>Curriculum Vitae</h2>
+        <table border=1>
             <tr>
-                <td>Email</td>
-                <td>arjunvas@andrew.cmu.edu</td>
+                <th>Name</th>
+                <th>Description</th>
             </tr>
             <tr>
-                <td>Phone</td>
-                <td>817-341-9516</td>
+                <td>FWCD</td>
+                <td>Attended Fort Worth Country Day for Highschool, participated in the Solar Car Challenge.</td>
             </tr>
+            <tr>
+                <td>Carnegie Mellon University</td>
+                <td>Current freshman studying Information Systems.</td>
+            </tr>
+        </tr>
+        <tr>
+            <td>Projects!</td>
+            <td>this website!</td>
+        </tr>
+        <tr>
+            <td>Work Experience</td>
+            <td>Software Consultant @ Nirubi Technologies!</td>
+        </tr>
         </table>
+        <p>
+            <a href="../static/resume.pdf" target="_blank" id="resume-pdf">resume (pdf)</a>
+        </p>
     </div>
-</div>
     <footer>
         <p id = "copyYear"> &copy; placeholder </p>
     </footer>
